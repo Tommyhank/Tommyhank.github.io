@@ -4,7 +4,7 @@ CACHE MANIFEST
 CACHE:
 monitor-position/appcache-loader.html
 monitor-position/index.html
-scripts/monitorPosition/monitorPosition.99736016.js
+scripts/monitorPosition/monitorPosition.81adde52.js
 libs/fastman-api.5a37acd2.js
 libs/fastman-jsBridge.20aa9dfc.js
 libs/fastman-UIdesign.682b29e2.js
@@ -489,4 +489,4 @@ FALLBACK:
 SETTINGS:
 prefer-online
 
-# hash: 47ec3ead61172ba6e58d40560995d24be4309f1f23a294eadb3fb130447a3657
+# hash: 3b8ec22a5a405ac5468bc4352671bc7cbbeb4a8575a292e932c4dfc78414cda1
