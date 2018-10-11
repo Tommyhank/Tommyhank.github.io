@@ -1,11 +1,10 @@
 <!DOCTYPE html>
-<!-- data-rem关闭rem特性（no:关闭 yes:开启，默认yes） -->
-<html>
+<html to="dfwzq-centre">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="format-detection" content="telephone=no" />
-    <title>持仓事件提醒</title>
+    <title>申购</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
     <style>
         .Loading__Backdrop {
@@ -19,12 +18,14 @@
             height: 100%;
             display: table;
         }
-        .Loading__Circle{
+
+        .Loading__Circle {
             text-align: center;
             display: table-cell;
             vertical-align: middle;
         }
-        .Loading__Circle>div {
+
+        .Loading__Circle > div {
             position: absolute;
             left: 50%;
             width: 50px;
@@ -34,11 +35,12 @@
             border: 1px solid #bbb7b7;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
-            border-top-color: rgba(51,51,51,0);
+            border-top-color: rgba(51, 51, 51, 0);
             -webkit-animation: rotate 1.5s infinite linear;
             animation: rotate 1.5s infinite linear;
         }
-        .Loading__Circle>span {
+
+        .Loading__Circle > span {
             display: block;
             width: 50px;
             height: 50px;
@@ -47,11 +49,13 @@
             font-size: 24px;
             color: #bbb7b7;
         }
-        .Loading__Circle>p{
+
+        .Loading__Circle > p {
             font-size: 14px;
-            margin-top:10px;
+            margin-top: 10px;
             color: #bbb7b7;
         }
+
         @keyframes rotate {
             0% {
                 -webkit-transform: rotate(0deg)
@@ -71,25 +75,22 @@
                 -webkit-transform: rotate(1turn)
             }
         }
-        </style>
+    </style>
 </head>
 <body ontouchstart>
-    <div class="Loading__Backdrop page-loading">
-        <div class="Loading__Circle">
-            <div></div>
-            <span>赢</span>
-        </div>
+<div class="Loading__Backdrop page-loading">
+    <div class="Loading__Circle">
+        <div></div>
+        <span>赢</span>
     </div>
-    <div class="page-group" id="page-group"></div>
+</div>
+<div class="page-group" id="page-group"></div>
 </body>
-<!-- 必要脚本，fastman主框架 -->
 <script src="../libs/fastman.ed258a02.js"></script>
-<!-- 必要脚本，fastman主样式库 -->
-<script src="../libs/fastman-UIdesign.cd24728e.js"></script>
-<!-- 可选脚本，实现多端化支持，已兼容APP和微信端、WEB端 -->
 <script src="../libs/fastman-jsBridge.f860a27f.js"></script>
-<!-- 可选脚本，调用业务通讯接口 -->
 <script src="../libs/fastman-api.b86b9c83.js"></script>
-<!-- 你的逻辑脚本 -->
-<script src="../scripts/monitorPosition/monitorPosition.4974951b.js"></script>
+<script src="../libs/fastman-UIdesign.cd24728e.js"></script>
+<script src="../libs/fastman-UIdesign-passGuard.1ba5a781.js"></script>
+<script src="../libs/fastman-passGuard.f034864c.js"></script>
+<script src="../scripts/financingrealname/financingrealname.350a3756.js"></script>
 </html>

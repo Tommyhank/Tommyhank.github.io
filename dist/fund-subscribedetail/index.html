@@ -1,11 +1,9 @@
 <!DOCTYPE html>
-<!-- data-rem关闭rem特性（no:关闭 yes:开启，默认yes） -->
 <html>
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="format-detection" content="telephone=no" />
-    <title>持仓事件提醒</title>
+    <title>基金认购</title>
     <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no">
     <style>
         .Loading__Backdrop {
@@ -18,6 +16,7 @@
             width: 100%;
             height: 100%;
             display: table;
+            background-color:#efeff4;
         }
         .Loading__Circle{
             text-align: center;
@@ -25,32 +24,20 @@
             vertical-align: middle;
         }
         .Loading__Circle>div {
-            position: absolute;
-            left: 50%;
-            width: 50px;
-            height: 50px;
-            margin-left: -25px;
+            width: 32px;
+            height: 32px;
+            margin: 0 auto;
             border-radius: 50%;
-            border: 1px solid #bbb7b7;
+            border: 4px solid #ffac00;
             -webkit-box-sizing: border-box;
             box-sizing: border-box;
             border-top-color: rgba(51,51,51,0);
             -webkit-animation: rotate 1.5s infinite linear;
             animation: rotate 1.5s infinite linear;
         }
-        .Loading__Circle>span {
-            display: block;
-            width: 50px;
-            height: 50px;
-            line-height: 50px;
-            margin: 0 auto;
-            font-size: 24px;
-            color: #bbb7b7;
-        }
         .Loading__Circle>p{
             font-size: 14px;
             margin-top:10px;
-            color: #bbb7b7;
         }
         @keyframes rotate {
             0% {
@@ -71,25 +58,24 @@
                 -webkit-transform: rotate(1turn)
             }
         }
-        </style>
+    </style>
 </head>
 <body ontouchstart>
-    <div class="Loading__Backdrop page-loading">
-        <div class="Loading__Circle">
-            <div></div>
-            <span>赢</span>
+<div class="Loading__Backdrop page-loading">
+    <div class="Loading__Circle">
+        <div>
+            <i></i>
         </div>
+        <p>数据加载中....</p>
     </div>
-    <div class="page-group" id="page-group"></div>
+</div>
+<div class="page-group" id="page-group"></div>
 </body>
-<!-- 必要脚本，fastman主框架 -->
 <script src="../libs/fastman.ed258a02.js"></script>
-<!-- 必要脚本，fastman主样式库 -->
-<script src="../libs/fastman-UIdesign.cd24728e.js"></script>
-<!-- 可选脚本，实现多端化支持，已兼容APP和微信端、WEB端 -->
 <script src="../libs/fastman-jsBridge.f860a27f.js"></script>
-<!-- 可选脚本，调用业务通讯接口 -->
 <script src="../libs/fastman-api.b86b9c83.js"></script>
-<!-- 你的逻辑脚本 -->
-<script src="../scripts/monitorPosition/monitorPosition.4974951b.js"></script>
+<script src="../libs/fastman-swiperman.ab8f553c.js"></script>
+<script src="../libs/fastman-UIdesign-swiperman.9c8fade7.js"></script>
+<script src="../libs/fastman-UIdesign.cd24728e.js"></script>
+<script src="../scripts/fundSubscribeDetail/fundSubscribeDetail.ea9c85da.js"></script>
 </html>
