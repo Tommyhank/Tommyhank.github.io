@@ -6,19 +6,22 @@ fund-purchasedetail/appcache-loader.html
 fund-purchasedetail/index.html
 fund-subscribedetail/appcache-loader.html
 fund-subscribedetail/index.html
+marketing-crjh3/appcache-loader.html
+marketing-crjh3/index.html
 monitor-position/appcache-loader.html
 monitor-position/index.html
-scripts/financingrealname/financingrealname.350a3756.js
-scripts/fundSubscribeDetail/fundSubscribeDetail.ea9c85da.js
-scripts/monitorPosition/monitorPosition.4974951b.js
-libs/fastman-api.b86b9c83.js
-libs/fastman-jsBridge.f860a27f.js
-libs/fastman-passGuard.f034864c.js
-libs/fastman-swiperman.ab8f553c.js
-libs/fastman-UIdesign-passGuard.1ba5a781.js
-libs/fastman-UIdesign-swiperman.9c8fade7.js
-libs/fastman-UIdesign.cd24728e.js
-libs/fastman.ed258a02.js
+scripts/financingrealname/financingrealname.6315220a.js
+scripts/fundSubscribeDetail/fundSubscribeDetail.fe954c3f.js
+scripts/marketingCrjh3/marketingCrjh3.c7fc59ab.js
+scripts/monitorPosition/monitorPosition.af5a53b1.js
+libs/fastman-api.a9a382c5.js
+libs/fastman-jsBridge.c06d080e.js
+libs/fastman-passGuard.739f5556.js
+libs/fastman-swiperman.f9b366e0.js
+libs/fastman-UIdesign-passGuard.a2b15096.js
+libs/fastman-UIdesign-swiperman.72a044a4.js
+libs/fastman-UIdesign.3f8ac35e.js
+libs/fastman.317a8482.js
 favicon.ico
 images/account-aml/auth.png
 images/account-aml/back.png
@@ -499,4 +502,4 @@ FALLBACK:
 SETTINGS:
 prefer-online
 
-# hash: 966e2b90417699ce409a1f9ec1922ce739e21a9db9f2338a448446d0690ed4bd
+# hash: cee32792a734c7e5216f977bc23a235094f971251b2041f606973d38ea4e41b7
